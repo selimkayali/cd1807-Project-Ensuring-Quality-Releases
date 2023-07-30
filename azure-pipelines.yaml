@@ -6,7 +6,7 @@ trigger:
 variables:
   python.version: '3.7.6'
   terraformVersion: '1.3.4'
-  azureServiceConnectionId: 'ec1d1436-b5dc-44ff-8870-7a9d04f8b5ea'
+  azureServiceConnectionId: '45d8fd43-8864-4d5e-b5cf-cd0555170d87'
   projectRoot: $(System.DefaultWorkingDirectory)
   environmentName: 'test-vm'
   poolName: 'Default'
@@ -41,7 +41,7 @@ stages:
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
         backendServiceArm: '$(azureServiceConnectionId)'
         backendAzureRmResourceGroupName: 'Azuredevops'
-        backendAzureRmStorageAccountName: 'tfstate2765720627'
+        backendAzureRmStorageAccountName: 'tfstate305022409'
         backendAzureRmContainerName: 'tfstate'
         backendAzureRmKey: 'test.terraform.tfstate'
    
