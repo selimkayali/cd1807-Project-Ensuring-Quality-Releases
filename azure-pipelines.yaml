@@ -158,8 +158,8 @@ stages:
       clean: all
     environment:
       name: '$(environmentName)'
-      resourceType: VirtualMachine
-      tags: selenium
+      # resourceType: VirtualMachine
+      # tags: selenium
     strategy:
       runOnce:
         deploy:
