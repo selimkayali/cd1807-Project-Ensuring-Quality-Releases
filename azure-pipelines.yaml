@@ -10,7 +10,7 @@ variables:
   projectRoot: $(System.DefaultWorkingDirectory)
   environmentName: 'test-vm'
   poolName: 'Default'
-  appName: 'udacity-project-3'
+  appName: 'myApplication-AppService'
 
 pool: 
   name: '$(poolName)'
