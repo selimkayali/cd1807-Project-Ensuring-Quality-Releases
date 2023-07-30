@@ -52,6 +52,12 @@ stages:
         command: 'validate'
     
     - task: CmdLine@2
+      displayName: 'remove state'
+      inputs:
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
+        script: 'terraform state rm module.resource_group.azurerm_resource_group.test' 
+
+    - task: CmdLine@2
       displayName: 'add existing resource to module'
       inputs:
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
