@@ -51,11 +51,11 @@ stages:
         provider: 'azurerm'
         command: 'validate'
     
-    - task: CmdLine@2
-      displayName: 'add existing resource to module'
-      inputs:
-        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-        script: 'terraform import module.resource_group.azurerm_resource_group.test /subscriptions/e2bf10f5-b611-44c7-9617-4a26610fc460/resourceGroups/Azuredevops' 
+    # - task: CmdLine@2
+    #   displayName: 'add existing resource to module'
+    #   inputs:
+    #     workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
+    #     script: 'terraform import module.resource_group.azurerm_resource_group.test /subscriptions/e2bf10f5-b611-44c7-9617-4a26610fc460/resourceGroups/Azuredevops' 
 
     # Run Terraform Apply
     - task: TerraformTaskV3@3
