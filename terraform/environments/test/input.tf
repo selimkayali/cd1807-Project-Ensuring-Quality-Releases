@@ -10,7 +10,13 @@ variable "resource_group" {}
 variable "application_type" {}
 
 # Network
-variable virtual_network_name {}
-variable address_prefix_test {}
-variable address_space {}
+variable "virtual_network_name" {}
+variable "address_prefix_test" {}
+variable "address_space" {}
 
+# Virtual machine
+variable "vm_username" {}
+variable "vm_password" {}
+
+# Image for linux
+variable "image_name" {}
