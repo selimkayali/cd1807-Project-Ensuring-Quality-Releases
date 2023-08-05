@@ -1,89 +1,20 @@
-2023-08-05 17:29:13,453 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2023-08-05 17:29:13,470 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6/libexec/bin/user.properties
-2023-08-05 17:29:13,473 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6/libexec/bin/system.properties
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: Version 5.6
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: java.version=17.0.7
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: os.name=Mac OS X
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: os.arch=aarch64
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: os.version=13.4.1
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: file.encoding=UTF-8
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: java.awt.headless=true
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: Max memory     =1073741824
-2023-08-05 17:29:13,476 INFO o.a.j.JMeter: Available Processors =10
-2023-08-05 17:29:13,480 INFO o.a.j.JMeter: Default Locale=English (EN)
-2023-08-05 17:29:13,480 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2023-08-05 17:29:13,480 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6/libexec
-2023-08-05 17:29:13,480 INFO o.a.j.JMeter: user.dir  =/Users/selimkayali/Desktop/project3/cd1807-Project-Ensuring-Quality-Releases/automatedtesting/jmeter
-2023-08-05 17:29:13,480 INFO o.a.j.JMeter: PWD       =/Users/selimkayali/Desktop/project3/cd1807-Project-Ensuring-Quality-Releases/automatedtesting/jmeter
-2023-08-05 17:29:13,481 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Selims-MacBook-Pro.local FullName: localhost
-2023-08-05 17:29:13,487 INFO o.a.j.s.FileServer: Default base='/Users/selimkayali/Desktop/project3/cd1807-Project-Ensuring-Quality-Releases/automatedtesting/jmeter'
-2023-08-05 17:29:13,488 INFO o.a.j.s.FileServer: Set new base='/Users/selimkayali/Desktop/project3/cd1807-Project-Ensuring-Quality-Releases/automatedtesting/jmeter'
-2023-08-05 17:29:13,567 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2023-08-05 17:29:13,585 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2023-08-05 17:29:13,587 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2023-08-05 17:29:13,588 INFO o.a.j.s.SaveService: Loading file: Endurance.jmx
-2023-08-05 17:29:13,614 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-08-05 17:29:13,614 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-08-05 17:29:13,614 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-08-05 17:29:13,614 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2023-08-05 17:29:13,615 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2023-08-05 17:29:13,615 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2023-08-05 17:29:13,623 INFO o.a.j.JMeter: Creating summariser <summary>
-2023-08-05 17:29:13,628 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2023-08-05 17:29:13,628 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2023-08-05 17:29:13,628 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2023-08-05 17:29:13,630 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2023-08-05 17:29:13,630 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2023-08-05 17:29:13,662 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2023-08-05 17:29:13,705 INFO o.a.j.JMeter: Running test (1691245753705)
-2023-08-05 17:29:13,714 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Endurance
-2023-08-05 17:29:13,714 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Endurance.
-2023-08-05 17:29:13,714 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2023-08-05 17:29:13,714 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 delayedStart=false
-2023-08-05 17:29:13,716 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2023-08-05 17:29:13,716 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2023-08-05 17:29:13,742 INFO o.a.j.t.JMeterThread: Thread started: Endurance 1-1
-2023-08-05 17:29:13,742 INFO o.a.j.s.FileServer: Stored: people-100.csv
-2023-08-05 17:29:13,742 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file people-100.csv
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.6]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.6]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:412) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:404) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:170) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:123) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:109) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) [ApacheJMeter_core.jar:5.6]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.IllegalArgumentException: File people-100.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.6]
-	... 9 more
-2023-08-05 17:29:13,746 INFO o.a.j.t.JMeterThread: Thread finished: Endurance 1-1
-2023-08-05 17:29:14,240 INFO o.a.j.t.JMeterThread: Thread started: Endurance 1-2
-2023-08-05 17:29:14,241 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file people-100.csv
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:216) ~[ApacheJMeter_components.jar:5.6]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.6]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:412) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:404) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:170) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:123) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:109) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) [ApacheJMeter_core.jar:5.6]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.IllegalArgumentException: File people-100.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.6]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.6]
-	... 9 more
-2023-08-05 17:29:14,242 INFO o.a.j.t.JMeterThread: Thread finished: Endurance 1-2
-2023-08-05 17:29:14,242 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2023-08-05 17:29:14,243 INFO o.a.j.r.Summariser: summary =      0 in 00:00:00 = ******/s Avg:     0 Min: 9223372036854775807 Max: -9223372036854775808 Err:     0 (0.00%)
+2023-08-05 17:32:20,501 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-08-05 17:32:20,516 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6/libexec/bin/user.properties
+2023-08-05 17:32:20,516 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6/libexec/bin/system.properties
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: Version 5.6
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: java.version=17.0.7
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: os.name=Mac OS X
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: os.arch=aarch64
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: os.version=13.4.1
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: java.awt.headless=null
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-08-05 17:32:20,519 INFO o.a.j.JMeter: Available Processors =10
+2023-08-05 17:32:20,524 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-08-05 17:32:20,524 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-08-05 17:32:20,524 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6/libexec
+2023-08-05 17:32:20,524 INFO o.a.j.JMeter: user.dir  =/Users/selimkayali/Desktop/project3/cd1807-Project-Ensuring-Quality-Releases/automatedtesting/jmeter
+2023-08-05 17:32:20,524 INFO o.a.j.JMeter: PWD       =/Users/selimkayali/Desktop/project3/cd1807-Project-Ensuring-Quality-Releases/automatedtesting/jmeter
+2023-08-05 17:32:20,525 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Selims-MacBook-Pro.local FullName: localhost
