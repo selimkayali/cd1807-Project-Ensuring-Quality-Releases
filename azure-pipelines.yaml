@@ -247,7 +247,7 @@ stages:
         script: |
           export PATH=~/.npm-global/bin:$PATH
           chmod 744 ~/.npm-global/bin/newman
-          newman run regression-test.json --reporters cli,junit --reporter-junit-export results\regression-test.xml
+          newman run regression-test.json -e regression-test.postman_environment.json --reporters cli,junit --reporter-junit-export results\regression-test.xml
         workingDirectory: '$(System.DefaultWorkingDirectory)/automatedtesting/postman'
 
    # Postman - Publish Results 
