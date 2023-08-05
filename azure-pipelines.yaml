@@ -278,17 +278,14 @@ stages:
           rm -rf tests
           echo '-------> Cleanned old data'
           
-          export PATH=$PATH:/home/nghianv/Desktop/Tools/apache-jmeter-5.5/bin 
-          echo '-------> path with jmeter:' $PATH
-          
           echo '-------> jmeter testing endurance...'
-          jmeter -n -t stress-test.jmx \
+          jmeter -n -t Stress.jmx \
             -l logs/stress-test-output.csv \
             -e -f -o logs/stress-test-log \
             -j logs/stress-test.log
 
           echo '-------> jmeter testing endurance...'
-          jmeter -n -t endurance-test.jmx \
+          jmeter -n -t Endurance.jmx \
             -l logs/endurance-test-output.csv \
             -e -f -o logs/endurance-test-log \
             -j logs/endurance-test.log
