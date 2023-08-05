@@ -271,7 +271,7 @@ stages:
       inputs:
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
         script: 'export PATH="$PATH":/home/selimkayali/apache-jmeter-5.6.2/bin/'
-        
+
     # Run JMeter test suite against the App Service
     - task: CmdLine@2
       displayName: 'Run Jmeter'
@@ -280,6 +280,8 @@ stages:
           echo '-------> Path:'
           pwd
 
+          export PATH="$PATH":/home/selimkayali/apache-jmeter-5.6.2/bin/
+          
           echo '-------> Cleanning old data...'
           rm -rf tests
           echo '-------> Cleanned old data'
