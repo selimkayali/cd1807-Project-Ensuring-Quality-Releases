@@ -266,6 +266,12 @@ stages:
     displayName: 'Test with Jmeter'
     steps:
     #--------------------------------------------#    
+    - task: CmdLine@2
+      displayName: 'add path jmeter'
+      inputs:
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
+        script: 'export PATH="$PATH":/home/selimkayali/apache-jmeter-5.6.2/bin/'
+        
     # Run JMeter test suite against the App Service
     - task: CmdLine@2
       displayName: 'Run Jmeter'

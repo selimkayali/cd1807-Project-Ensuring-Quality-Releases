@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1691250375527,15774,GET All Activities,200,OK,Endurance 1-1,text,true,,3109,184,1,1,https://myapplication-appservice.azurewebsites.net/api/Activities,15773,0,536
