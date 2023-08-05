@@ -278,8 +278,8 @@ stages:
           rm -rf tests
           echo '-------> Cleanned old data'
           
-          echo '-------> jmeter testing endurance...'
-          jmeter -n -t Stress.jmx -l logs/stress-test-output.csv -e -f -o logs/stress-test-log -j logs/stress-test.log
+          echo '-------> jmeter testing stress...'
+          jmeter -n -t Stress.jmx -l logs/stress-test-output.csv -e -o logs/stress-test-log -j logs/stress-test.log
 
           echo '-------> jmeter testing endurance...'
           jmeter -n -t Endurance.jmx -l logs/endurance-test-output.csv -e -f -o logs/endurance-test-log -j logs/endurance-test.log
