@@ -24,6 +24,10 @@ resource "azurerm_monitor_action_group" "test" {
   name                = "app-metric-alert"
   resource_group_name = var.resource_group
   short_name          = "app-alert"
+  email_receiver {
+    email_address = "selimkayali@gmail.com"
+    name          = "alert for admin"
+  }
 }
 
 resource "azurerm_monitor_metric_alert" "test" {
@@ -32,7 +36,7 @@ resource "azurerm_monitor_metric_alert" "test" {
   scopes               = [azurerm_windows_web_app.test.id]
   target_resource_type = "Microsoft.Web/sites"
   description          = "Metric alert"
-  severity             = 2
+  severity             = 1
 
   criteria {
     metric_namespace = "Microsoft.Web/sites"
