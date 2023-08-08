@@ -9,7 +9,7 @@ variables:
   azureServiceConnectionId: '2a1d245d-a817-4ab8-a33d-1de169572b6e'
   projectRoot: $(System.DefaultWorkingDirectory)
   environmentName: 'test-vm'
-  poolName: 'Azure Pipelines'
+  poolName: 'Default'
   appName: 'myApplication-AppService'
 
 pool: 
